@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  display: grid;
+
+   
+
+}
+.container
+{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 80px;
+    width: 920px;
+    height: 100px;
+    
+    border-radius: 0 0 20px 20px;
+}
+
+/*#changeGrid
+{
+  display: flex;
+ margin: 20px 20px; 
+ justify-content: center;
+ padding: 20px;
+ float: left;
+}
+#gridContainer
+{
+  display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 960px;
+}
+
+.square
+{
+  width: 2,5%;
+  border: 1px solid #27c3e6;
+  transition: background-color 0,3 ease;
+}
+*/
+
+
+#changeGrid
+{
+  display: flex;
+ justify-content: center;
+ 
+
+
+}
+/*#gridContainer {
+display: inline-grid;
+    border: solid #2d2d26;
+    border-width: 6px 100px 0;
+    grid-gap: 1px;
+    background-color: #AAAAAA;}
+
+    #grid-container > div {
+      background-color: #D8D8D8;
+    }
+    */#gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  justify-content: center;
+  transform: scale(.7);
+  border-radius: 15px;
+  bottom: 60px;
+
+}
+
+#gridContainer :hover
+{
+  background-color: blue;
+}
+.square {
+  width: 2.5%;
+  padding-bottom: 2.5%;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.gin{
+  display: flex;
+  align-items: end;
+  width: 80px;
+  font-size: 30px;
+  background-color: white;
+  box-shadow: 5px 5px;
+  outline: none;
+}
+
+.colorAndPrompt{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 20px;
+  text-shadow: 2px 2px white;
+  padding: 5px;
+}
+
+.pop
+{
+ margin:10px;
+ padding: 10px;
+ margin-left: 10px;
+}
+
+#color{
+  margin-top: 5px;
+  margin-bottom: -20px;
+  width: 80px;
+  height: 30px;
+  box-shadow: 3px 3px;
+}
+
+#color:hover{
+  transform: scale(1.1);
+}
+
+#color:active{
+  transform: scale(1.2);
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+button:active{
+  transform: scale(1.2);
+}
+
+.gin{
+  background: linear-gradient(to right, #D291BC, #E0BBE4, #FEC8D8);
+}
+
+
+
+
+
